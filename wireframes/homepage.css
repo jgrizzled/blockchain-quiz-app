@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url(/wireframes/logo.svg);
+    background-image: url(logo.svg);
     background-repeat: no-repeat;
     background-size: 150%;
     background-position: 60% 5%;
