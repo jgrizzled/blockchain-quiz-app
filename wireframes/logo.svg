@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="537px" height="614px" viewBox="0 0 537 614" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="big-homepage-graphic" stroke="#979797">
+            <g id="Group" transform="translate(268.500000, 307.000000) rotate(-180.000000) translate(-268.500000, -307.000000) ">
+                <path d="M217,169 L338,235" id="Line" stroke-width="10" stroke-linecap="square"></path>
+                <path d="M227,492 L361,411" id="Line-Copy" stroke-width="10" stroke-linecap="square"></path>
+                <path d="M423.5,425.5 C485.908177,425.5 536.5,374.908177 536.5,312.5 C536.5,250.091823 485.908177,199.5 423.5,199.5 C369.137963,199.5 322.764973,238.16997 312.560687,290.907005 C311.193896,297.97075 310.5,305.190773 310.5,312.5 C310.5,374.908177 361.091823,425.5 423.5,425.5 Z" id="Oval-Copy" fill="#D8D8D8"></path>
+                <path d="M114,387 L114,227" id="Line-Copy-2" stroke-width="10" stroke-linecap="square"></path>
+                <circle id="Oval-Copy-2" fill="#D8D8D8" cx="113.5" cy="500.5" r="113"></circle>
+                <circle id="Oval" fill="#D8D8D8" cx="113.5" cy="113.5" r="113"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

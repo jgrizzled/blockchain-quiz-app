@@ -1,0 +1,53 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(/wireframes/logo.svg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: 60% 5%;
+    background-color: #f2f2f2;
+}
+
+header {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+h1 {
+    text-align: center;
+}
+
+#start-quiz-form {
+    text-align: center;
+}
+
+#start-quiz-button {
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width: 481px) {
+    body {
+        background-size: 50%;
+        background-position: 90% -20%;
+    }
+    header {
+        margin-top: 10%;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+
+}
+
+@media screen and (min-width: 1025px) {
+    h1 {
+        font-size: 4rem;
+    }
+    #start-quiz-button {
+        font-size: 3rem;
+    }
+}
