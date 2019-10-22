@@ -20,13 +20,13 @@ const QUESTIONS = [
         correct: false
       }
     ],
-      explanation: 'A blockchain is a data structure which consists of blocks of data, such as transactions. Each block contains a reference to the previous block, such that it is guaranteed to have been created after the previous block, otherwise the reference to the previous block could not be created. This provides a good way to track transactions or state in a distributed network, with each block being a snapshot of time. Earlier history cannot be altered because that would alter the previous block references in every following block. Many decentralized cryptocurrency networks use blockchains to store the state of the transaction ledger.'
+      explanation: 'A blockchain is a data structure which consists of chronologically ordered blocks of data, such as transactions. Each block contains a reference to the previous block, such that it is guaranteed to have been created after the previous block, otherwise the reference to the previous block could not be created. This provides a good way to track transactions or state in a distributed network, with each block being a snapshot of time. Earlier history cannot be altered because that would alter the previous block references in every following block. Many decentralized cryptocurrency networks use blockchains to store the state of the transaction ledger.'
   },
   {
     questionText: 'What does "crypto" refer to in "cryptocurrency?"',
     answers: [
       {
-        text: 'The use of cryptography to allow users to digitally sign transactions and prove ownership of coins',
+        text: 'The use of public key cryptography to allow users to digitally sign transactions and prove ownership of coins',
         correct: true
       },
       {
@@ -42,7 +42,7 @@ const QUESTIONS = [
         correct: false
       }
     ],
-      explanation: 'Cryptocurrencies use public key cryptography to mathematically prove which users own which coins, preventing hackers from stealing money. The owner of some cryptocurrency has a "private key" which is like a password to spend the coins. A private key has a corresponding public key, which is like an email address to which others can send money to. It is crucial for users to keep their private keys secret, otherwise someone else could use it to steal their money!'
+      explanation: 'Cryptocurrencies use public key cryptography to mathematically prove which users own which coins, preventing theft. The owner of some cryptocurrency has a "private key" which is like a password to spend the coins. A private key has a corresponding public key, which is like an email address to which others can send money to. It is crucial for users to keep their private keys secret, otherwise someone else could use it to steal their money!'
   },
   {
     questionText: 'What best describes "decentralized" in the context of decentralized cryptocurrency?',
@@ -86,7 +86,7 @@ const QUESTIONS = [
         correct: false
       }
     ],
-      explanation: 'Consensus algorithms are used in decentralized cryptocurrencies to come to consensus about transactions. They are designed to prevent a single party from controlling the state of the network, such that no one could censor transactions or alter their order.'
+      explanation: 'Consensus algorithms are used in decentralized cryptocurrencies to come to agreement about valid transaction history. They are designed to prevent a single party from controlling the state of the network, such that no one could censor transactions or alter their order.'
   },
   {
     questionText: 'What is the consensus algorithm called that Bitcoin uses?',
@@ -126,7 +126,7 @@ const QUESTIONS = [
         correct: false
       },
       {
-        text: 'A contract enforced by a blockchain network',
+        text: 'A contract which is executed by a blockchain network',
         correct: true
       }
     ],
@@ -179,7 +179,7 @@ const QUESTIONS = [
 
 ]
 
-/* blank question 
+/* blank question template
   {
     questionText: '',
     answers: [
