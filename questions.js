@@ -92,8 +92,8 @@ const QUESTIONS = [
     questionText: 'What is the consensus algorithm called that Bitcoin uses?',
     answers: [
       {
-      text: 'Fraud proofs',
-      correct: false
+        text: 'Fraud proofs',
+        correct: false
       },
       {
         text: 'Public key cryptography',
@@ -114,8 +114,8 @@ const QUESTIONS = [
     questionText: 'What best describes a smart contract?',
     answers: [
       {
-      text: 'A digitized legal contract',
-      correct: false
+        text: 'A digitized legal contract',
+        correct: false
       },
       {
         text: 'Legally enforceable code',
@@ -136,8 +136,8 @@ const QUESTIONS = [
     questionText: 'What best describes Ethereum?',
     answers: [
       {
-      text: 'An alternative public blockchain to Bitcoin',
-      correct: false
+        text: 'An alternative public blockchain to Bitcoin',
+        correct: false
       },
       {
         text: 'An upgraded version of Bitcoin',
@@ -158,8 +158,8 @@ const QUESTIONS = [
     questionText: 'Which of the following is a decentralized application running on the Ethereum blockchain?',
     answers: [
       {
-      text: 'MakerDAO',
-      correct: true
+        text: 'MakerDAO',
+        correct: true
       },
       {
         text: 'Bitcoin',
@@ -184,8 +184,8 @@ const QUESTIONS = [
     questionText: '',
     answers: [
       {
-      text: '',
-      correct: false
+        text: '',
+        correct: false
       },
       {
         text: '',
